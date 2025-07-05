@@ -109,7 +109,7 @@ def visualize_labeled_graph(adj_list, labels, title="Labeled Graph"):
 
     # Normalize colors to a colormap
     num_labels = len(set(labels))
-    cmap = plt.get_cmap('tab20', num_labels)
+    cmap = plt.get_cmap('Dark2', num_labels)
     node_colors = [cmap(label) for label in labels]
 
     # Layout and plotting
@@ -118,9 +118,9 @@ def visualize_labeled_graph(adj_list, labels, title="Labeled Graph"):
         G, pos,
         node_color=node_colors,
         with_labels=True,
-        edge_color='gray',
+        edge_color='black', #'gray',
         node_size=600,
-        font_color='white'
+        font_color='black' #'white'
     )
 
     plt.title(title)
@@ -181,7 +181,7 @@ save = False
 main(test_key, tree_file, label_file, check_validity, save)
 
 # Plot an instance solution.
-test_key = "small" # Options: small, medium, large, set_small, set_medium, set_large, example
-index = 7
+test_key = "set_small" # Options: small, medium, large, set_small, set_medium, set_large, example
+index = 0
 plot_instance_solution(test_key, index)
 

@@ -23,6 +23,7 @@ For full details of the problem and algorithm, refer to the PDFs below:
 
 ## Project Structure
 
+```bash
 graph-labeling-optimizer/
 ├── solver.py # Your custom labeling algorithm
 ├── main.py # Runs the algorithm on test data and plots graph labeling
@@ -35,7 +36,7 @@ graph-labeling-optimizer/
 ├── viz_labels/ # Visualization of graph labeling
 ├── requirements.txt
 ├── README.md
-
+```
 
 ## Problem Overview
 

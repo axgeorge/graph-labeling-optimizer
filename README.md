@@ -1,5 +1,9 @@
 # Graph Labeling Optimizer
 
+<p align="center">
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/517de626-4c72-43df-a4de-16315ffaad2c" />
+</p>
+
 A Python-based toolkit for solving and visualizing node labeling problems on tree-structured graphs. Each graph is given as an adjacency list, and the goal is to assign labels (colors) to nodes subject to problem-specific constraints.
 
 This project includes:
